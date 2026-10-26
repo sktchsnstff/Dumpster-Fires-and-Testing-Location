@@ -1,0 +1,64 @@
+<html lang="eng">
+<title>Clicker Game</title>
+<link rel="stylesheet" href="style.css">
+<head>
+
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="left">
+            <h3>Leaves: <span class="coin_cost">0</span></h3>
+            <img src="COIN.png" class="coin_img" onclick="incrementCoin()" draggable="false">
+            </div>
+            <div class="right">
+
+            <div class="upgrade" onclick="buyClicker()">
+                <div class="left-section">
+                <img src="clicker-white.png" class="upgrade_img">
+                </div>
+                <div class="mid-section">
+                <h4>Upgraded Rake</h4>
+                <div class="cost-info">
+                    <p>Cost: <span class="ClickerCost">50</span></p>
+                    <img src="COIN.png" class="smaller_coin">
+                </div>
+                </div>
+                <div class="right-section">
+                    <p>Level: <span class="clicker-level">0</span></p>
+                </div>
+
+                <div class="next-level-info">
+                <p>
+                    +<span class="clicker-increase">1</span> leaf(s) <br /> per Click
+                </p>
+                </div>
+            </div>
+
+                <div class="upgrade" onclick="buyPickaxe()">
+                <div class="left-section">
+                <img src="Pickaxe.png" class="upgrade_img">
+                </div>
+                <div class="mid-section">
+                <h4>Leaf Blower</h4>
+                <div class="cost-info">
+                    <p>Cost: <span class="PickaxeCost">500</span></p>
+                    <img src="COIN.png" class="smaller_coin">
+                </div>
+                </div>
+                <div class="right-section">
+                    <p>Level: <span class="Pickaxe-level">0</span></p>
+                </div>
+
+                <div class="next-level-info">
+                <p>
+                    +<span class="Pickaxe-increase">4</span> leaves <br /> per second
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
