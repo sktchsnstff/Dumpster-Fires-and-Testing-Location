@@ -52,5 +52,5 @@ function buyPickaxe(){
     setInterval(() => {
     parsedCoin += gps
     coin.innerHTML = Math.round(parsedCoin)
-    }, 150)
+    }, 200)
 }
